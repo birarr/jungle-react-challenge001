@@ -1,0 +1,128 @@
+
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-nav-left {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#header-nav-left li {
+    padding: 1.5rem;
+    align-items: center;
+}
+
+#header-nav-left li a {
+    text-decoration-line: none;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--greyish-brown);
+}
+
+
+#hapu-green-logo {
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+    padding-top: 0 !important;
+    width: 48px;
+    height: 64px;
+    left: 20px;
+    top: 0px;
+}
+
+#header-nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-right: 2rem;
+}
+
+#header-nav-right button {
+    border: none;
+    background: #00C88C;
+    border-radius: 4px;
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#signin {
+    padding-left: 1.5rem;
+    font-family: HelveticaNeue;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    color: var(--greyish-brown);
+}
+
+#backgroundImage {
+    width: 1440px;
+    height: 299px;
+    margin: 0 0 359px;
+    padding: 0 0 55px;
+    background-image: linear-gradient(282deg, #C86DD7 102%, #7e49C3 61%, #5912AC 14%), url(../../assets/backgroundImage.png);
+    background-blend-mode: overlay;
+    opacity: 0.2;
+}
+
+#backgroundImage h1 {
+    padding-top: 5rem;
+    width: 516px;
+    height: 55px;
+    margin: 55px 461px 14px 463px;
+    font-family: HelveticaNeue;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+#backgroundImage p {
+    width: 668px;
+    height: 34px;
+    margin: 14px 384px 0 388px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
