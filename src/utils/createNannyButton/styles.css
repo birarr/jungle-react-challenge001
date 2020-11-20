@@ -1,0 +1,47 @@
+#create-nanny {
+    display: flex;
+    align-items: center;
+    padding-left: -5rem;
+}
+
+#parents-content button {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 316px;
+    height: 68px;
+    margin: 39px 30px 28px 0px;
+    padding: 0px 30px 12px;
+    border-radius: 34px;
+    background-color: transparent;
+    border: solid 1.5px #5e20a4;
+}
+
+#create {
+    width: 256px;
+    height: 25px;
+    margin: 12px 0 -23px 0;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+        color: #5e20a4;
+}
+
+#take {
+    width: 138px;
+    height: 21px;
+    margin: 22px 59px 0;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5e20a4;
+}

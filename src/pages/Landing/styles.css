@@ -6,6 +6,8 @@ body, ul, li, p {
     list-style: none;
 }
 
+
+
 .header-menu {
     display: flex;
     justify-content: space-between;
@@ -79,20 +81,17 @@ body, ul, li, p {
 }
 
 #backgroundImage {
-    width: 1440px;
-    height: 299px;
-    margin: 0 0 359px;
-    padding: 0 0 55px;
+    width: 100vw;
+    height: 190px;
+    margin: 0 0 65px;
+    padding: 0 0 20px 10px;
     background-image: linear-gradient(282deg, #C86DD7 102%, #7e49C3 61%, #5912AC 14%), url(../../assets/backgroundImage.png);
     background-blend-mode: overlay;
     opacity: 0.2;
 }
 
 #backgroundImage h1 {
-    padding-top: 5rem;
-    width: 516px;
-    height: 55px;
-    margin: 55px 461px 14px 463px;
+    padding-top: 3.5rem;
     font-family: HelveticaNeue;
     font-size: 40px;
     font-weight: 500;
@@ -102,12 +101,10 @@ body, ul, li, p {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    text-align: center;
 }
 
 #backgroundImage p {
-    width: 668px;
-    height: 34px;
-    margin: 14px 384px 0 388px;
     font-family: HelveticaNeue;
     font-size: 24px;
     font-weight: normal;
@@ -117,12 +114,363 @@ body, ul, li, p {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    margin-top: -1rem;
 }
 
 .content {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        margin-bottom: 15rem;
+}
+
+#parents-content {
+    padding-top: -0.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#parents-content img {
+    border-radius: 70px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #E6BE8A	;
+}
+
+#parents-content h1 {
+    margin: 20px 0 25px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a
+}
+
+#parents-content h2 {
+    margin: 40px 0 25px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a; 
+}
+
+#parents-content-p {
+  margin: 20px 0 0;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a
+
+}
+
+#create-nanny {
+    align-items: center;
+    padding-left: -5rem;
+}
+
+#parents-content button {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 316px;
+    height: 68px;
+    margin: 39px 30px 28px 0px;
+    padding: 0px 30px 12px;
+    border-radius: 34px;
+    background-color: transparent;
+    border: solid 1.5px #5e20a4;
+}
+
+#create {
+    width: 256px;
+    height: 25px;
+    margin: 12px 0 -23px 0;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+        color: #5e20a4;
+}
+
+#take {
+    width: 138px;
+    height: 21px;
+    margin: 22px 59px 0;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5e20a4;
+}
+
+#create-nanny-benefits {
+    width: 8px;
+    height: 8px;
+    margin: 8px 23px 8px 0;
+    color: #5e20a4;
+}
+
+#create-nanny-benefits li {
+    list-style-type: disc;
+    width: 405px;
+    margin: 0 0 15px 23px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5e20a4;
 }
 
 
+#nannys-content {
+    justify-content: center;
+    text-align: center;
+}
+
+#nannys-content img {
+    border-radius: 70px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #E6BE8A	;
+}
+
+#nannys-content h1 {
+    margin: 20px 0 25px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a
+}
+
+#nannys-content h2 {
+    margin: 40px 0 25px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a; 
+}
+
+#nannys-content-p {
+  margin: 20px 0 0;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a
+}
+
+#nannys-content button {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 316px;
+    height: 68px;
+    margin: 39px 30px 28px 0px;
+    padding: 0px 30px 12px;
+    border-radius: 34px;
+    background-color: transparent;
+    border: solid 1.5px #5e20a4;
+}
+
+#space-bar {
+    justify-content: center;
+    width: 800px;
+    height: 2px;
+    margin: 60px 327px 65px 250px;
+    border: solid 1px #dfdfdf
+}
+
+#second-content h1 {
+    width: 313px;
+    height: 34px;
+    margin: 0 621.5px 33px 376.5px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a
+}
+
+#second-content p {
+    width: 942px;
+    height: 90px;
+    margin: 33px 307px 31px 62px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+#second-content {
+justify-content: center;
+margin-left: 100px;
+}
+
+#second-content a {
+    width: 248px;
+    height: 20px;
+    margin: 31px 654px 46px 409px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e20a4
+}
+
+#second-content img {
+    width: 1112px;
+    height: 390px;
+    margin: 30px 199px 15px 50px;
+    padding: 0 9px 0 0;
+    object-fit: contain;
+    justify-content: center;
+}
+
+
+#third-content {
+    width: 879px;
+    height: 34px;
+    margin: 0 242px 50px 170px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+#third-content h1 {
+    width: 479px;
+    height: 34px;
+    margin: 0 242px 50px 243px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+#buttons {
+    margin-left: 5rem;
+}
+
+
+#third-content button {
+    width: 214px;
+    height: 58px;
+    margin: 0 16px 0 0;
+    padding: 19px 76px 18px;
+    border-radius: 29px;
+    border: solid 0.5px #5e20a4;
+    background-color: #ffffff;
+}
+
+
+#third-content button p {
+    width: 62px;
+    height: 21px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e20a4;
+}
+
+#how-works-content {
+    display: flex;
+}
+
+#how-works-content h2 {
+    width: 402px;
+    height: 40px;
+    margin: 50px 242px 20px 0;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+#how-works-content p {
+    width: 420px;
+    height: 308px;
+    margin: 20px 124px 62px 0;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+#how-works-right {
+    margin-left: -5rem;
+}
