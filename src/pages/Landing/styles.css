@@ -7,13 +7,16 @@ body, ul, li, p {
 }
 
 #body-content {
+    width: 100%;
     background-color: #faf9f7;
     padding-bottom: 1rem;
+    padding-top: 3.5rem;
 }
 
 .content {
         display: flex;
         justify-content: space-around;
+        margin-top: 6rem;
         margin-bottom: 15rem;
 }
 
@@ -44,6 +47,7 @@ body, ul, li, p {
 }
 
 #parents-content h2 {
+    width: 424px;
     margin: 40px 0 25px;
     font-family: HelveticaNeue;
     font-size: 24px;
@@ -57,30 +61,27 @@ body, ul, li, p {
 }
 
 #parents-content-p {
-  margin: 20px 0 0;
-  font-family: HelveticaNeue;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #4a4a4a
+    width: 424px;
+    margin: 20px 0 0;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a
 
 }
 
-#create-nanny {
-    align-items: center;
-    padding-left: -5rem;
-}
 
 #parents-content button {
     display: grid;
     grid-template-columns: 1fr;
     width: 316px;
     height: 68px;
-    margin: 39px 30px 28px 0px;
+    margin: 39px 30px 28px 30px;
     padding: 0px 30px 12px;
     border-radius: 34px;
     background-color: transparent;
@@ -120,7 +121,7 @@ body, ul, li, p {
 #create-nanny-benefits {
     width: 8px;
     height: 8px;
-    margin: 8px 23px 8px 0;
+    margin: 8px 23px 8px 30px;
     color: #5e20a4;
 }
 
@@ -171,6 +172,7 @@ body, ul, li, p {
 }
 
 #nannys-content h2 {
+    width: 424px;
     margin: 40px 0 25px;
     font-family: HelveticaNeue;
     font-size: 24px;
@@ -184,16 +186,17 @@ body, ul, li, p {
 }
 
 #nannys-content-p {
-  margin: 20px 0 0;
-  font-family: HelveticaNeue;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #4a4a4a
+    width: 424px;
+    margin: 20px 0 0;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a
 }
 
 #nannys-content button {
@@ -201,7 +204,7 @@ body, ul, li, p {
     grid-template-columns: 1fr;
     width: 316px;
     height: 68px;
-    margin: 39px 30px 28px 0px;
+    margin: 39px 30px 28px 30px;
     padding: 0px 30px 12px;
     border-radius: 34px;
     background-color: transparent;
@@ -216,8 +219,13 @@ body, ul, li, p {
 }
 
 #second-content {
+    width: 100%;
     justify-content: center;
     /*margin-left: 100px;*/
+    }
+
+    #local-families {
+        margin-left: 120px;
     }
 
 #second-content h1 {
@@ -251,9 +259,9 @@ body, ul, li, p {
 }
 
 #second-content a {
-    width: 248px;
+    width: 400px;
     height: 20px;
-    margin: 31px 654px 46px 409px;
+    margin: 31px 310px 46px 409px;
     font-family: HelveticaNeue;
     font-size: 18px;
     font-weight: normal;
@@ -275,23 +283,22 @@ body, ul, li, p {
 }
 
 
-/* #third-content {
-    font-family: HelveticaNeue;
-    font-size: 28px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
+ #how-works {
+    justify-content: center;
 }
-*/
+
+#how-works-subject {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+    margin-left: 239px;
+}
+
 
 #third-content h1 {
     width: 479px;
     height: 34px;
-    margin: 0 242px 50px 243px;
+    margin: 0 242px 50px 482px;
     font-family: HelveticaNeue;
     font-size: 28px;
     font-weight: 500;
@@ -304,7 +311,7 @@ body, ul, li, p {
 }
 
 #buttons {
-    margin-left: 5rem;
+    padding-left: 499px;
 }
 
 
@@ -336,6 +343,7 @@ body, ul, li, p {
 
 #how-works-content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -356,7 +364,6 @@ body, ul, li, p {
 
 #how-works-content p {
     width: 420px;
-    height: 308px;
     margin: 20px 124px 62px 0;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -369,9 +376,8 @@ body, ul, li, p {
     color: #4a4a4a;
 }
 
-#how-works-right {
-    margin-left: -5rem;
-}
+
+
 
 @media only screen and (max-width: 600px) {
     .content {
@@ -379,12 +385,14 @@ body, ul, li, p {
         justify-content: space-around;
         margin-bottom: 15rem;
         padding-left: 20px;
+        margin-top: 0px;
 }
 
 #body-content {
     width: 100%;
     background-color: #faf9f7;
     padding-bottom: 0.3rem;
+    padding-top: 0px;
 }
 
     #parents-content img {
@@ -445,6 +453,39 @@ body, ul, li, p {
         height: 68px;
         border-radius: 34px;
         margin-left: 23px;
+        padding-top: 15px;
+    }
+
+    #parents-content #create {
+        width: 228px;
+        height: 16px;
+        margin: 0 0 10px;
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    #parents-content #take {
+        width: 115px;
+        height: 10px;
+        margin: 10px 68px 0 45px;
+        font-family: HelveticaNeue;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #create-nanny {
+        margin-left: -28px;
     }
 
     #create-nanny-benefits {
@@ -474,6 +515,24 @@ body, ul, li, p {
 
     #nannys-content {
         margin-top: 15rem;
+    }
+
+    #nannys-content img {
+        margin: 15px 140px 2px 90px;
+    }
+
+    #nannys-content h1 {
+        width: 107px;
+        height: 34px;
+        margin: 22px 89px 30px 87px;
+        font-family: HelveticaNeue;
+        font-size: 28px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: center;
     }
 
     #nannys-content h2 {
@@ -507,148 +566,183 @@ body, ul, li, p {
     /*Veer*/
 
     #nannys-content button {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 316px;
-    height: 68px;
-    margin: 39px 30px 28px 0px;
-    padding: 0px 30px 12px;
-    border-radius: 34px;
-    background-color: transparent;
-    border: solid 1.5px #5e20a4;
-}
-
-#second-content {
-    display: block;
-    align-self: center;
-    margin-left: 20px;
-}
-
-#second-content h1 {
-    width: 280px;
-    margin: 0 9px 20px 1px;
-    font-family: HelveticaNeue;
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-}
-
-#second-content p {
-    width: 280px;
-    height: 240px;
-    margin: 20px 9px 20px 1px;
-    font-family: HelveticaNeue;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-}
-
-#second-content a {
-    width: 280px;
-    height: 20px;
-    margin: 20px 9px 30px 1px;
-    font-family: HelveticaNeue;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-}
-
-#second-content img {
-    width: 280px;
-    height: 122px;
-    margin: 0 0 10px;
-    padding: 0 0 10px;
-    border-radius: 4px;
-    object-fit: contain;
-}
-
-#space-bar { 
-    width: 220px;
-    height: 2px;
-    margin: 40px 39px 40px 50px;
-}
-
-#third-content {
-    display: block;
-    align-self: center;
-    margin-left: 20px;
-    margin-top: 3rem;
-}
-
-#how-works h1 {
-    width: 280px;
-    height: 60px;
-    margin: 0 0 38px;
-    font-family: HelveticaNeue;
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-}
-
-#buttons {
-    display: flex;
-    margin-left: 0px;
-}
-
-#third-content button {
-    width: 135px;
-    height: 45.4px;
-    padding: 14px 39.5px 13.4px 38.4px;
-    border-radius: 29px;
-}
-
-#how-works-content {
-    display: block;
-}
-
-#how-works-content h2 {
-    width: 275px;
-    margin: 40px 0 40px;
-    font-family: HelveticaNeue;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    margin-bottom: 0px;
-}
-
-#how-works-content p {
-    width: 280px;
-    margin: 20px 0 35px;
-    font-family: HelveticaNeue;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    padding-top: 0px;
+        width: 280px;
+        height: 68px;
+        border-radius: 34px;
+        margin-left: 23px;
+        padding-top: 15px;
+    }
     
-}
+    #nannys-content #create {
+        width: 228px;
+        height: 16px;
+        margin: 0 0 10px;
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+    }
 
-#your-weekly {
-    padding-top: 2rem;
-}
+    #nannys-content #take {
+        width: 115px;
+        height: 10px;
+        margin: 10px 68px 0 45px;
+        font-family: HelveticaNeue;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #second-content {
+        width: 100%;
+        display: block;
+        align-self: center;
+        margin-left: 20px;
+    }
+
+    #local-families {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    #second-content h1 {
+        width: 280px;
+        margin: 0 9px 20px 1px;
+        font-family: HelveticaNeue;
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #second-content p {
+        width: 280px;
+        height: 240px;
+        margin: 20px 9px 20px 1px;
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #second-content a {
+        width: 280px;
+        height: 20px;
+        margin: 20px 9px 30px 1px;
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #second-content img {
+        width: 280px;
+        height: 122px;
+        margin: 0 0 10px;
+        padding: 0 0 10px;
+        border-radius: 4px;
+        object-fit: contain;
+    }
+
+    #space-bar { 
+        width: 220px;
+        height: 2px;
+        margin: 40px 39px 40px 50px;
+        border: solid 1px #dfdfdf
+
+
+    }
+
+    #third-content {
+        display: block;
+        align-self: center;
+        margin-left: 20px;
+        margin-top: 3rem;
+    }
+
+    #how-works h1 {
+        width: 280px;
+        height: 60px;
+        margin: 0 0 38px;
+        font-family: HelveticaNeue;
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    #buttons {
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #third-content button {
+        width: 135px;
+        height: 45.4px;
+        padding: 14px 39.5px 13.4px 38.4px;
+        border-radius: 29px;
+    }
+
+    #how-works-content {
+        display: block;
+    }
+
+    #how-works-subject {
+        margin-left: 0px;
+        display: block;
+    }
+
+    #how-works-content h2 {
+        width: 275px;
+        margin: 40px 0 40px;
+        font-family: HelveticaNeue;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    #how-works-content p {
+        width: 280px;
+        margin: 20px 0 35px;
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        padding-top: 0px;
+        
+    }
 
 
 } 

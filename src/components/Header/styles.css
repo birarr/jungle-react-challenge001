@@ -2,8 +2,6 @@ header {
     width: 100vw;
     height: 190px;
     padding: 0 0 20px 10px;
-    background-image: linear-gradient(282deg, #C86DD7 102%, #7e49C3 61%, #5912AC 14%), url(../../assets/backgroundImage.png);
-    background-blend-mode: overlay;
     opacity: 0.2;
 }
 
@@ -79,8 +77,14 @@ header {
     color: var(--greyish-brown);
 }
 
+#header-content {
+    background-image: linear-gradient(282deg, #C86DD7 102%, #7e49C3 61%, #5912AC 14%), url(../../assets/backgroundImage.png);
+    background-blend-mode: overlay;
+    height: 220px;
+}
+
 #header-content h1 {
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-family: HelveticaNeue;
     font-size: 40px;
     font-weight: 500;

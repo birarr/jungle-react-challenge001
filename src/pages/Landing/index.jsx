@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css'
 import parentsLogo from '../../assets/parentsProfile.png';
 import nannysLogo from '../../assets/nannysProfile.png';
@@ -6,6 +6,15 @@ import prices from '../../assets/prices.png';
 
 
 function Landing() {
+
+    const [button1State, setButton1State] =  useState('on')
+    const [button2State, setButton2State] =  useState('off')
+
+    function handlebutton1State() {
+        button1State ? setButton1State('off') : setButton1State('on')
+    }
+
+
     return(
         <div id='body-content'>
             <section id='first-content'>
@@ -72,11 +81,13 @@ function Landing() {
                 <div id='how-works'>
                     <h1>How it works: Some tips and insights</h1>
                     <div id='buttons'>
-                        <button><p>Parents</p></button>
+                        <button onClick={handlebutton1State}>
+                            {button1State === true }
+                            <p>Parents</p></button>
                         <button><p>Nannies</p></button>
                     </div>
                     <div id='how-works-content'>
-                        <div>
+                        <div id='how-works-subject'>
                             <div>
                         <h2>Setting up your nanny share</h2>
                         <p>Discuss with your nanny any increase in pay, your own reduction in costs and the number of children you might take on. 
@@ -100,7 +111,7 @@ function Landing() {
                                      week for sharers. You enter your bank account as the receiver of funds and pay your nanny at the end of the week as
                                       you currently do.</p>
                                       </div>
-                                      <div>
+                                      <div id='verification'>
                                       <h2>Verification and qualifications</h2>
                                            <p>Hapu is essentially a parent to parent app with our goal to connect families and provide tools to manage payments
                                                 and attendance for nanny share. In doing so we allow parents to perform their own due diligence in verifying 

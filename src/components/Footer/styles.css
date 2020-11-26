@@ -1,29 +1,33 @@
 #footer-component {
+    width: 100%;
     display: grid;
     justify-content: center;
     text-align: center;
     background: #FFFFFF;
     margin: 4rem auto 2rem auto;
     bottom:0; 
-    padding-top: 63rem;
 }
 
 #become-nanny {
     width: 473.8px;
-  height: 24px;
-  margin: 0 0 20px;
-  font-family: HelveticaNeue;
-  font-size: 28px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.86;
-  letter-spacing: normal;
-  text-align: center;
-  color: #4a4a4a;
+    height: 24px;
+    margin: 0 0 20px;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
 }
 
 #become-nanny-mobile {
+    display: none;
+}
+
+#become-nanny-h1-mobile {
     display: none;
 }
 
@@ -48,8 +52,8 @@
     align-items:  center;
     color: #FFFFFF;
     height: 70px;
-    width: 281px;
-    background: #5E20A4;
+    width: 336px;
+    background: #7223b9;
     border-radius: 34px;
     border: none;
     padding-left: 1.2rem;
@@ -57,30 +61,60 @@
 
 }
 
-#create-nanny {
-    font-family: 'Inter';
-    font-style: normal;
+#footer-button img {
+    width: 33px;
+    height: 30px;
+    margin: 5px 13px 1px -240px;
+    padding: 11.3px 2.5px 2.5px;
+    object-fit: contain;
+ }
+
+ #footer-button #create-nanny {
+    width: 219.6px;
+    height: 24.5px;
+    margin: -42px 0 8px 70px;
+    font-family: HelveticaNeue;
+    font-size: 18px;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 28px;
-    margin-left: -2rem;
-    margin-top: -1.3rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff
+}
+
+#footer-button #take-less {
+    width: 146.1px;
+    height: 24.3px;
+    margin: -17px 65px 0 70px;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
     color: #ffffff;
 }
 
-#take-less {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+footer a {
+    width: 196.2px;
     height: 20px;
-    width: 138px;
-    margin-top: -1rem;
+    margin: -5px 138.6px 0 139px;
+    padding-left: 20px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e20a4
 }
+
 
 #footer-nav-itens {
     display: flex;
@@ -181,7 +215,7 @@
 #footer-copyright {
     width: 296.6px;
     height: 14.3px;
-    margin: 32px 65.9px 0 122.8px;
+    margin: 32px 65.9px 30px 122.8px;
     opacity: 0.6;
     font-family: HelveticaNeue;
     font-size: 12px;
@@ -208,14 +242,14 @@
         @media only screen and (max-width: 600px) {
         footer {
             display: block;
-            width: 320px;
-            height: 272px;
+            width: 100%;
             margin: 40px 0 0;
-            padding: 40px 20px;
+            padding: 40px 0px;
             margin: 0px;
         }
 
         #footer-component {
+            display: inline-block;
             padding-top: 0px;
             margin: 0px;
         }
@@ -242,7 +276,7 @@
          #footer-component p {
             width: 280px;
             height: 14px;
-            margin: 10px 0 30px;
+            margin: 10px 0 30px 10px;
             font-family: HelveticaNeue;
             font-size: 14px;
             font-weight: normal;
@@ -253,10 +287,82 @@
             text-align: center;
          }
 
-         #footer-last-div {
+         #footer-component button{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            align-items:  center;
+            color: #FFFFFF;
+            height: 68px;
+            width: 280px;
+            background: #5E20A4;
+            border-radius: 34px;
+            border: none;
+            padding-left: 1.2rem;
+            margin: 0 auto 2rem auto;
+         }
+
+        #button-itens {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            align-items:  center;
+            color: #FFFFFF;
+            height: 70px;
+            width: 281px;
+            background: #5E20A4;
+            border-radius: 4px;
+            border: none;
+            padding-left: 1.2rem;
+            margin: 0 auto 2rem auto;
+        }
+
+         #footer-button img {
+            width: 30px;
+            height: 30px;
+            margin: 3px 13px 1px -20px;
+            padding: 11.3px 2.5px 2.5px;
+            object-fit: contain;
+         }
+
+         #footer-button #create-nanny {
+            width: 181px;
+            height: 16px;
+            margin: -2px 0 8px -42px;
+            font-family: HelveticaNeue;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff
+        }
+        
+        #footer-button #take-less {
+            width: 115px;
+            height: 10px;
+            margin: -40px 65px 0 -42px;
+            font-family: HelveticaNeue;
+            font-size: 10px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        #footer-component a {
             width: 320px;
+            height: 272px;
+            margin: 40px 0 0;
+            padding: 40px 20px;
+        }
+
+         #footer-last-div {
+            width: 100%;
             height: 306.7px;
-            padding: 44px 0 20px;
          }
 
          #footer-nav-itens {
@@ -266,7 +372,8 @@
          }
 
          #footer-nav {
-            width: 340px;
+            width: 100%;
+            display: flex;
             flex-wrap: wrap;
             margin-top: 2rem;
             margin-bottom:2rem;
@@ -380,7 +487,7 @@
             letter-spacing: normal;
             text-align: center;
             padding-left: 2rem;
-            margin-top: -2rem;
+            margin-top: -3.5rem;
         }
 
         

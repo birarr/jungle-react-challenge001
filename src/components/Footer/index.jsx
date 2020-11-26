@@ -14,9 +14,9 @@ function Footer() {
                 <h1 id='become-nanny-h1'>Become a nanny share host today!</h1>
                 <h1 id='become-nanny-h1-mobile'>Become a nanny share host</h1>
                 <p id='footer-title'>Takes less than 5 minutes to get started</p>
-                <button><img src={calendarIcon} alt=""/><p id="create-nanny">
+                <button id='footer-button'><div id='button-itens'><img src={calendarIcon} alt=""/><p id="create-nanny">
                 Create Your Nanny Share</p> <br/> <p id="take-less">
-                    Takes less than 5 minutes</p></button>
+                    Takes less than 5 minutes</p></div></button>
                     <a href="">Or browse local nanny-shares</a>
             </div>
             <div id='footer-last-div'>
@@ -27,7 +27,7 @@ function Footer() {
                         <li id='create-your-nanny-mobile'>Share your Nanny</li>
                         <li id='browse-nanny'>Browse Nanny Shares</li>
                         <li id='browse-nanny-mobile'>Browse Shares</li>
-                        <li id='become-nanny'>Become A Nanny Share Host</li>
+                        <li id='become-nanny'>Become a Nanny Share Host</li>
                         <li id='terms'>{"Terms & Privacy"}</li>
                     </nav>
                     <ul id='social-media'>
