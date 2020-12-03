@@ -7,12 +7,17 @@ import prices from '../../assets/prices.png';
 
 function Landing() {
 
-    const [button1State, setButton1State] =  useState('on')
-    const [button2State, setButton2State] =  useState('off')
+    const [isNanniesButtonPressed, setIsNanniesButtonPressed] = useState(true)
+    const [isParentsButtonPressed, setIsParentsButtonPressed] = useState(false)
 
-    function handlebutton1State() {
-        button1State ? setButton1State('off') : setButton1State('on')
-    }
+const handleNanniesButtonClick = () => {
+  setIsNanniesButtonPressed(true)
+  setIsParentsButtonPressed(false)
+}
+const handleParentsButtonClick = () => {
+    setIsNanniesButtonPressed(false)
+    setIsParentsButtonPressed(true)
+}
 
 
     return(
@@ -81,21 +86,20 @@ function Landing() {
                 <div id='how-works'>
                     <h1>How it works: Some tips and insights</h1>
                     <div id='buttons'>
-                        <button onClick={handlebutton1State}>
-                            {button1State === true }
+                        <button id={isParentsButtonPressed ? 'inactive' : 'active'} onClick={handleParentsButtonClick}>
                             <p>Parents</p></button>
-                        <button><p>Nannies</p></button>
+                        <button id={isNanniesButtonPressed ? 'inactive' : 'active'} onClick={handleNanniesButtonClick}><p>Nannies</p></button>
                     </div>
                     <div id='how-works-content'>
                         <div id='how-works-subject'>
                             <div>
                         <h2>Setting up your nanny share</h2>
-                        <p>Discuss with your nanny any increase in pay, your own reduction in costs and the number of children you might take on. 
+                        <p id='your-weekly'> Discuss with your nanny any increase in pay, your own reduction in costs and the number of children you might take on. 
                             Hapu makes it easy to add more than one child, though you and your nanny may wish to limit to one. We give you the option
                              of open places beyond one as you may find the perfect family who have two little ones. This means a greater reduction in
                               costs for you and a higher increase in pay for your nanny.</p>
                               </div>
-                              <div>
+                              <div id='verification'>
                               <h2>Setting an hourly rate</h2>
                                       <p>You set the rate you want. And this may be more than half. It’s up to you to determine the amount you and your 
                                           nanny want to see at the end of the week. You can take into account existing costs you’ve already incurred in 

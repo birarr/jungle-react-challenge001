@@ -14,8 +14,9 @@ body, ul, li, p {
 }
 
 .content {
+        max-width: 1500px;
+        justify-content: center;
         display: flex;
-        justify-content: space-around;
         margin-top: 6rem;
         margin-bottom: 15rem;
 }
@@ -24,6 +25,7 @@ body, ul, li, p {
     padding-top: -0.5rem;
     justify-content: center;
     text-align: center;
+    margin-right: 9rem;
 }
 
 #parents-content img {
@@ -276,7 +278,7 @@ body, ul, li, p {
 #second-content img {
     width: 1112px;
     height: 390px;
-    margin: 30px 199px 15px 50px;
+    margin: 50px 199px 15px 50px;
     padding: 0 9px 0 0;
     object-fit: contain;
     justify-content: center;
@@ -288,11 +290,13 @@ body, ul, li, p {
 }
 
 #how-works-subject {
-    width: 100%;
+    max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 2em;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -317,10 +321,11 @@ body, ul, li, p {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 0.7rem;
 }
 
 
-#third-content button {
+ #active {
     width: 214px;
     height: 58px;
     margin: 0 16px 0 0;
@@ -328,6 +333,16 @@ body, ul, li, p {
     border-radius: 29px;
     border: solid 0.5px #5e20a4;
     background-color: #ffffff;
+}
+
+#inactive {
+    width: 214px;
+    height: 58px;
+    margin: 0 16px 0 0;
+    padding: 19px 76px 18px;
+    border-radius: 29px;
+    border: solid 0.5px #5e20a4;
+    opacity: 0.5;
 }
 
 
@@ -347,8 +362,10 @@ body, ul, li, p {
 
 
 #how-works-content {
+    max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -379,10 +396,12 @@ body, ul, li, p {
     letter-spacing: normal;
     text-align: left;
     color: #4a4a4a;
+    margin-bottom: 1rem;
 }
 
-
-
+#verification {
+    margin-left: 5rem;
+}
 
 @media only screen and (max-width: 600px) {
     .content {
