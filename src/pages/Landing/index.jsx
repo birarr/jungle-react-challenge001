@@ -3,6 +3,7 @@ import './styles.css'
 import parentsLogo from '../../assets/parentsProfile.png';
 import nannysLogo from '../../assets/nannysProfile.png';
 import prices from '../../assets/prices.png';
+import pricesMobile from '../../assets/pricesMobile.png';
 
 
 function Landing() {
@@ -78,7 +79,11 @@ const handleParentsButtonClick = () => {
                          It’s a win, win, win! But first families need to find you. Go on, reach out to your neighbourhood today with a
                           Hapu nanny share. </p>
                           <a href="">Create your nanny share today</a>
-                          <img src={prices} alt="prices table and neighborhood map"/>
+                          <picture>
+                              <source media="(max-width: 600px)" srcSet={pricesMobile}/>
+                              <source media="(min-width: 601px)" srcSet={prices}/>
+                              <img src={prices} alt="prices table and neighborhood map"/>
+                              </picture>
                 </div>
                 <div id='space-bar'></div>
             </section>

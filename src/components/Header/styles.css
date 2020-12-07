@@ -1,7 +1,6 @@
 header {
     width: 100vw;
-    height: 190px;
-    padding: 0 0 20px 10px;
+    height: 220px;
 
 }
 
@@ -122,10 +121,8 @@ header {
     header {
         width: 100%;
         height: 300px;
-        padding: 0 10px 60px 17px;
-        background-image: linear-gradient(282deg, #C86DD7 102%, #7e49C3 61%, #5912AC 14%), url(../../assets/backgroundImage.png);
+        background-image: linear-gradient(282deg, #C86DD7, #7e49C3, #5912AC), url(../../assets/backgroundImage.png);
         background-blend-mode: overlay;
-        opacity: 0.2;
     }
 
     #header-menu {
@@ -136,9 +133,6 @@ header {
         display: none;
     }
 
-    #hapu-green-logo {
-        margin-left: -1.2rem;
-    }
 
     #signin {
        display: none;
@@ -161,8 +155,7 @@ header {
 
     #header-content h1 {
         width: 222px;
-        height: 60px;
-        margin: 50px 58px 10px 13px;
+        margin: 0px 58px 10px 30px;
         font-family: HelveticaNeue;
         font-size: 24px;
         font-weight: 500;
@@ -176,7 +169,7 @@ header {
     #header-content p {
         width: 248px;
         height: 40px;
-        margin: 10px 32px 0 13px;
+        margin: 10px 32px 0 30px;
         font-family: HelveticaNeue;
         font-size: 16px;
         font-weight: normal;

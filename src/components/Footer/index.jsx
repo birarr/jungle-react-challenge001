@@ -36,10 +36,12 @@ function Footer() {
                         <img src={instagram} alt="instagram logo"/>
                     </ul>
                 </div>
+                <div id='space'>
                 <div id='space-bar'></div>
+                </div>
             </div>
-            <div>
-                <p id='footer-copyright'>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
+            <div id='footer-copyright'>
+                <p>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
             </div>
         </footer>
     )
