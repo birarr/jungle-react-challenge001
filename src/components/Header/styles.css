@@ -1,3 +1,10 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; 
+    background: #F2F2F2;}
+}
+
 header {
     width: 100vw;
     height: 220px;
@@ -18,15 +25,16 @@ header {
 
 #header-nav-left li {
     padding: 1.5rem;
+    padding-top: 1.9rem;
     align-items: center;
 }
 
 #header-nav-left li a {
     text-decoration-line: none;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     text-align: center;
     color: var(--greyish-brown);
@@ -34,7 +42,7 @@ header {
 
 
 #hapu-green-logo {
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1.5rem;
     padding-top: 0 !important;
     width: 48px;
@@ -56,7 +64,7 @@ header {
     background: #00C88C;
     border-radius: 4px;
     padding: 0.8rem 1.3rem 0.8rem 1.3rem;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -67,7 +75,7 @@ header {
 
 #signin {
     padding-left: 1.5rem;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-stretch: normal;
     font-style: normal;
     font-weight: 500;
@@ -91,7 +99,7 @@ header {
 
 #header-content h1 {
     padding-top: 2rem;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 40px;
     font-weight: 500;
     font-stretch: normal;
@@ -104,7 +112,7 @@ header {
 }
 
 #header-content p {
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -143,7 +151,7 @@ header {
         background: #00C88C;
         border-radius: 4px;
         padding: 0.8rem 1.3rem 0.8rem 1.3rem;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -156,7 +164,7 @@ header {
     #header-content h1 {
         width: 222px;
         margin: 0px 58px 10px 30px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 24px;
         font-weight: 500;
         font-stretch: normal;
@@ -170,7 +178,7 @@ header {
         width: 248px;
         height: 40px;
         margin: 10px 32px 0 30px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;

@@ -1,4 +1,9 @@
-
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; 
+    background: #F2F2F2;}
+}
 
 body, ul, li, p {
     margin: 0px;
@@ -37,7 +42,7 @@ body, ul, li, p {
 
 #parents-content h1 {
     margin: 20px 0 25px;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
@@ -51,8 +56,8 @@ body, ul, li, p {
 #parents-content h2 {
     width: 424px;
     margin: 40px 0 25px;
-    font-family: HelveticaNeue;
-    font-size: 24px;
+    font-family: Inter;
+    font-size: 23.5px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -65,8 +70,8 @@ body, ul, li, p {
 #parents-content-p {
     width: 424px;
     margin: 20px 0 0;
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -94,8 +99,8 @@ body, ul, li, p {
     width: 256px;
     height: 25px;
     margin: 12px 0 -23px 0;
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 16.5px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -109,8 +114,8 @@ body, ul, li, p {
     width: 138px;
     height: 21px;
     margin: 22px 59px 0;
-    font-family: HelveticaNeue;
-    font-size: 12px;
+    font-family: Inter;
+    font-size: 11px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -136,7 +141,7 @@ body, ul, li, p {
     list-style-type: disc;
     width: 405px;
     margin: 0 0 15px 23px;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -162,7 +167,7 @@ body, ul, li, p {
 
 #nannys-content h1 {
     margin: 20px 0 25px;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
@@ -176,7 +181,7 @@ body, ul, li, p {
 #nannys-content h2 {
     width: 424px;
     margin: 40px 0 25px;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -190,8 +195,8 @@ body, ul, li, p {
 #nannys-content-p {
     width: 424px;
     margin: 20px 0 0;
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 17.5px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -216,7 +221,7 @@ body, ul, li, p {
 #space-bar {
     width: 800px;
     height: 2px;
-    margin: 60px 327px 826px 313px;
+    margin: 60px 327px 36px 313px;
     border: solid 1px #dfdfdf
 }
 
@@ -237,7 +242,7 @@ body, ul, li, p {
     width: 720px;
     height: 34px;
   /*  margin: 0 621.5px 33px 376.5px; */
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
@@ -252,8 +257,8 @@ body, ul, li, p {
     width: 942px;
     height: 90px;
  /*   margin: 33px 307px 31px 62px; */
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -267,7 +272,7 @@ body, ul, li, p {
     width: 700px;
     height: 20px;
     margin-top: 1.8rem;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -308,7 +313,7 @@ body, ul, li, p {
     height: 34px;
     display: flex;
     justify-content: center;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
@@ -352,7 +357,7 @@ body, ul, li, p {
 #third-content button p {
     width: 62px;
     height: 21px;
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -376,7 +381,7 @@ body, ul, li, p {
     width: 480px;
     height: 40px;
   /*  margin: 50px 242px 20px 0; */
-    font-family: HelveticaNeue;
+    font-family: Inter;
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -390,8 +395,8 @@ body, ul, li, p {
 #how-works-content p {
     width: 420px;
    /* margin: 20px 124px 62px 0; */
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 17.2px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -404,6 +409,7 @@ body, ul, li, p {
 
 #verification {
     margin-left: 5rem;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -436,7 +442,7 @@ body, ul, li, p {
         width: 107px;
         height: 34px;
         margin: 22px 89px 30px 87px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 28px;
         font-weight: 500;
         font-stretch: normal;
@@ -450,7 +456,7 @@ body, ul, li, p {
         width: 280px;
         height: 84px;
         margin: 30px 3px 20px 0;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 22px;
         font-weight: normal;
         font-stretch: normal;
@@ -465,7 +471,7 @@ body, ul, li, p {
         width: 280px;
         height: 120px;
         margin: 20px 3px 20px 0;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -493,7 +499,7 @@ body, ul, li, p {
         width: 228px;
         height: 16px;
         margin: 0 0 10px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -507,7 +513,7 @@ body, ul, li, p {
         width: 115px;
         height: 10px;
         margin: 10px 68px 0 45px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 10px;
         font-weight: normal;
         font-stretch: normal;
@@ -536,7 +542,7 @@ body, ul, li, p {
 
     #create-nanny-benefits li {
         width: 259px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 14px;
         font-weight: normal;
         font-stretch: normal;
@@ -558,7 +564,7 @@ body, ul, li, p {
         width: 107px;
         height: 34px;
         margin: 22px 89px 30px 87px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 28px;
         font-weight: 500;
         font-stretch: normal;
@@ -572,7 +578,7 @@ body, ul, li, p {
         width: 280px;
         height: 112px;
         margin: 30px 0 32px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 22px;
         font-weight: normal;
         font-stretch: normal;
@@ -586,7 +592,7 @@ body, ul, li, p {
         width: 280px;
         height: 192px;
         margin: 32px 0 20px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -610,7 +616,7 @@ body, ul, li, p {
         width: 228px;
         height: 16px;
         margin: 0 0 10px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -624,7 +630,7 @@ body, ul, li, p {
         width: 115px;
         height: 10px;
         margin: 10px 68px 0 45px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 10px;
         font-weight: normal;
         font-stretch: normal;
@@ -652,7 +658,7 @@ body, ul, li, p {
     #second-content h1 {
         width: 280px;
         margin: 0 9px 20px 1px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 24px;
         font-weight: 500;
         font-stretch: normal;
@@ -666,7 +672,7 @@ body, ul, li, p {
         width: 280px;
         height: 240px;
         margin: 20px 9px 20px 1px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -680,7 +686,7 @@ body, ul, li, p {
         width: 280px;
         height: 20px;
         margin: 20px 9px 30px 1px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
@@ -724,7 +730,7 @@ body, ul, li, p {
         width: 280px;
         height: 60px;
         margin: 0 0 38px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 24px;
         font-weight: 500;
         font-stretch: normal;
@@ -759,7 +765,7 @@ body, ul, li, p {
     #how-works-content h2 {
         width: 275px;
         margin: 40px 0 40px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 20px;
         font-weight: 500;
         font-stretch: normal;
@@ -773,7 +779,7 @@ body, ul, li, p {
     #how-works-content p {
         width: 280px;
         margin: 20px 0 35px;
-        font-family: HelveticaNeue;
+        font-family: Inter;
         font-size: 16px;
         font-weight: normal;
         font-stretch: normal;
