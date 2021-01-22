@@ -1,110 +1,348 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; 
-    background: #F2F2F2;}
+  html {
+    font-family: "Inter var", sans-serif;
+    background: #f2f2f2;
+  }
 }
 
-footer {
-    background: #FFFFFF;
+.main-footer {
+  background: #ffffff;
 }
 
-#footer-component {
+.footer-component {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  margin: 0px auto 0px auto;
+  bottom: 0;
+}
+
+.become-nanny {
+  width: 473.8px;
+  height: 24px;
+  margin: 0 0 20px;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.become-nanny-h1 {
+  margin-top: 4rem;
+}
+
+.become-nanny-mobile {
+  display: none;
+}
+
+.become-nanny-h1-mobile {
+  display: none;
+}
+
+.footer-component p {
+  width: 362px;
+  height: 21px;
+  margin: 0px 65px 39px 65px;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.footer-button {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  color: #ffffff;
+  height: 70px;
+  width: 336px;
+  background: #7223b9;
+  border-radius: 34px;
+  border: none;
+  padding-left: 1.2rem;
+  margin: 0 auto 2rem auto;
+}
+
+.footer-button img {
+  width: 33px;
+  height: 30px;
+  margin: 5px 13px 1px -240px;
+  padding: 11.3px 2.5px 2.5px;
+  object-fit: contain;
+}
+
+.footer-button .create-nanny {
+  width: 219.6px;
+  height: 24.5px;
+  margin: -42px 0 8px 70px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-button .take-less {
+  width: 146.1px;
+  height: 24.3px;
+  margin: -17px 65px 0 70px;
+  font-family: Inter;
+  font-size: 11.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.nanny-shares-link {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5e20a4;
+}
+
+.footer-nav-itens {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: -2rem;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 3rem;
+}
+
+.footer-nav {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.footer-nav li {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.create-your-nanny {
+  width: 170px;
+  height: 24px;
+  margin: 12px 49.9px 51px 49.9px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.create-your-nanny-mobile {
+  display: none;
+}
+
+.browse-nanny {
+  width: 191.7px;
+  height: 24px;
+  margin: 12px 49.9px 51px 49.9px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.browse-nanny-mobile {
+  display: none;
+}
+
+.become-nanny {
+  width: 191.7px;
+  height: 24px;
+  margin: 12px 49.9px 51px 49.9px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.terms {
+  width: 106.9px;
+  height: 24px;
+  margin: 12px 98.9px 51px 49.9px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  display: flex;
+}
+
+.space-bar {
+  justify-content: center;
+  width: 800px;
+  height: 2px;
+  margin: 40px 327px 35px 250px;
+  border: solid 1px #dfdfdf;
+}
+
+.footer-copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 14.3px;
+  opacity: 0.6;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #4a4a4a;
+  background: #ffffff;
+  padding-bottom: 30px;
+}
+
+.social-media {
+  display: flex;
+  margin-top: -0.5rem;
+  margin-left: -2rem;
+}
+
+.social-media img {
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    display: block;
     width: 100%;
-    display: grid;
+    margin: 40px 0 0;
+    padding: 40px 0px;
+    margin: 0px;
+  }
+
+  .footer-component {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    background: #FFFFFF;
-    margin: 0px auto 0px auto;
-    bottom:0; 
-}
+    padding-top: 0px;
+    margin: 0px;
+  }
 
-#become-nanny {
-    width: 473.8px;
-    height: 24px;
-    margin: 0 0 20px;
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.86;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-#become-nanny-h1 {
-    margin-top: 4rem;
-}
-
-#become-nanny-mobile {
+  .become-nanny-h1 {
     display: none;
-}
+  }
 
-#become-nanny-h1-mobile {
-    display: none;
-}
-
-#footer-component p {
-    width: 362px;
-    height: 21px;
-    margin: 0px 65px 39px 65px;
+  .become-nanny-h1-mobile {
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    margin: 0 0 10px;
     font-family: Inter;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
+    line-height: 1;
     letter-spacing: normal;
     text-align: center;
-    color: #4a4a4a;
-}
+  }
 
- #footer-component button {
+  .footer-component p {
+    width: 280px;
+    height: 14px;
+    margin: 10px 0 30px 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .footer-component button {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    align-items:  center;
-    color: #FFFFFF;
+    align-items: center;
+    color: #ffffff;
     height: 70px;
-    width: 336px;
-    background: #7223b9;
+    background: #5e20a4;
     border-radius: 34px;
     border: none;
     padding-left: 1.2rem;
     margin: 0 auto 2rem auto;
+  }
 
-}
+  .button-itens {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    color: #ffffff;
+    background: #5e20a4;
+    border-radius: 4px;
+    border: none;
+    padding-left: 1.8rem;
+    margin: 3px auto 2rem auto;
+  }
 
-#footer-button img {
-    width: 33px;
+  .footer-button img {
+    width: 30px;
     height: 30px;
-    margin: 5px 13px 1px -240px;
+    margin: 3px 58px 1px -20px;
     padding: 11.3px 2.5px 2.5px;
     object-fit: contain;
- }
+  }
 
- #footer-button #create-nanny {
-    width: 219.6px;
-    height: 24.5px;
-    margin: -42px 0 8px 70px;
+  .footer-button #create-nanny {
+    width: 181px;
+    height: 16px;
+    margin: -2px 0 8px -42px;
     font-family: Inter;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff
-}
-
-#footer-button #take-less {
-    width: 146.1px;
-    height: 24.3px;
-    margin: -17px 65px 0 70px;
-    font-family: Inter;
-    font-size: 11.5px;
+    font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -112,126 +350,159 @@ footer {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-}
+  }
 
-footer a {
-    width: 200px;
-    height: 20px;
-    margin: -5px 138.6px 0 139px;
-    padding-left: 20px;
+  .footer-button #take-less {
+    width: 115px;
+    height: 10px;
+    margin: -40px 65px 0 -42px;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.43;
+    line-height: 1;
     letter-spacing: normal;
-    text-align: center;
-    color: #5e20a4
-}
+    text-align: left;
+    color: #ffffff;
+  }
 
+  .footer-component a {
+    width: 320px;
+    padding: 15px 20px;
+    margin: 0;
+  }
 
-#footer-nav-itens {
-    display: flex;
-    margin-top: 4rem;
-    margin-bottom: -2rem;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 3rem;
-}
+  .footer-last-div {
+    width: 100%;
+    background: #ffffff;
+  }
 
-#footer-nav {
-    display: flex;
-    margin-left: 2rem;
-}
-
-#footer-nav li {
-    margin-left: 1rem;
-    margin-top: 3rem;
-}
-
-#create-your-nanny {
-    width: 170px;
-    height: 24px;
-    margin: 12px 49.9px 51px 49.9px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-#create-your-nanny-mobile {
-    display: none;
-}
-
-#browse-nanny {
-    width: 191.7px;
-    height: 24px;
-    margin: 12px 49.9px 51px 49.9px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-#browse-nanny-mobile {
-    display: none;
-}
-
-#become-nanny {
-    width: 191.7px;
-    height: 24px;
-    margin: 12px 49.9px 51px 49.9px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-#terms {
-    width: 106.9px;
-    height: 24px;
-    margin: 12px 98.9px 51px 49.9px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-    display: flex;
-}
-
-#space-bar {
+  .footer-nav-itens {
+    align-self: center;
     justify-content: center;
-    width: 800px;
-    height: 2px;
-    margin: 40px 327px 35px 250px;
-    border: solid 1px #dfdfdf
-}
+    flex-direction: column;
+    background: #ffffff;
+  }
 
-#footer-copyright {
+  .footer-nav {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0;
     justify-content: center;
-    height: 14.3px;
+  }
+
+  .hapu-logo-gray {
+    margin-left: -2.5rem;
+  }
+
+  .footer-nav li {
+    font-size: 11.5px;
+    height: 24px;
+    margin: 0 35px 0 0;
+    line-height: 2;
+  }
+
+  .create-your-nanny {
+    display: none;
+  }
+
+  .create-your-nanny-mobile {
+    display: inline-block;
+    width: 101px;
+    height: 24px;
+    margin: 0 35px 0 0;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .browse-nanny {
+    display: none;
+  }
+
+  .browse-nanny-mobile {
+    display: inline-block;
+    width: 83px;
+    height: 24px;
+    margin: 0 0 0 35px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .become-nanny {
+    width: 157px;
+    height: 24px;
+    margin: 0 35px 0 0;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .terms {
+    width: 88px;
+    height: 24px;
+    margin: 0 0 0 35px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    display: flex;
+  }
+
+  .social-media {
+    margin-bottom: 2.5rem;
+  }
+
+  .space {
+    display: flex;
+    justify-content: center;
+  }
+
+  .space-bar {
+    width: 320px;
+    height: 1px;
+    margin: 19px 0 20px;
+    background-color: #f2f2f2;
+  }
+
+  .footer-copyright {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 0 0 0;
+    margin-right: 0px;
+  }
+
+  .footer-copyright p {
+    width: 280px;
+    height: 28.7px;
     opacity: 0.6;
     font-family: Inter;
     font-size: 12px;
@@ -240,282 +511,7 @@ footer a {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: right;
-    color:#4a4a4a;
-    background: #FFFFFF;
-    padding-bottom: 30px;
+    text-align: center;
+    color: #4a4a4a;
+  }
 }
-
-#social-media {
-    display: flex;
-    margin-top: -0.5rem;
-    margin-left: -2rem;
-}
-
-#social-media img {
-    margin-right: 1rem;
-}
-        @media only screen and (max-width: 600px) {
-        footer {
-            display: block;
-            width: 100%;
-            margin: 40px 0 0;
-            padding: 40px 0px;
-            margin: 0px;
-        }
-
-        #footer-component {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding-top: 0px;
-            margin: 0px;
-        }
-
-        #become-nanny-h1 {
-            display: none;
-        }
-
-        #become-nanny-h1-mobile {
-            display: inline-block;
-            width: 280px;
-            height: 20px;
-            margin: 0 0 10px;
-            font-family: Inter;
-            font-size: 20px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: center;
-                    }
-
-         #footer-component p {
-            width: 280px;
-            height: 14px;
-            margin: 10px 0 30px 0px;
-            font-family: Inter;
-            font-size: 14px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: center;
-         }
-
-         #footer-component button{
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            align-items:  center;
-            color: #FFFFFF;
-            height: 70px;
-            background: #5E20A4;
-            border-radius: 34px;
-            border: none;
-            padding-left: 1.2rem;
-            margin: 0 auto 2rem auto;
-         }
-
-        #button-itens {
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            align-items:  center;
-            color: #FFFFFF;
-            background: #5E20A4;
-            border-radius: 4px;
-            border: none;
-            padding-left: 1.8rem;
-            margin: 3px auto 2rem auto;
-        }
-
-         #footer-button img {
-            width: 30px;
-            height: 30px;
-            margin: 3px 58px 1px -20px;
-            padding: 11.3px 2.5px 2.5px;
-            object-fit: contain;
-         }
-
-         #footer-button #create-nanny {
-            width: 181px;
-            height: 16px;
-            margin: -2px 0 8px -42px;
-            font-family: Inter;
-            font-size: 16px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: left;
-            color: #ffffff
-        }
-        
-        #footer-button #take-less {
-            width: 115px;
-            height: 10px;
-            margin: -40px 65px 0 -42px;
-            font-family: Inter;
-            font-size: 10px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: left;
-            color: #ffffff;
-        }
-
-        #footer-component a {
-            width: 320px;
-            padding: 15px 20px;
-            margin: 0;
-        }
-
-         #footer-last-div {
-            width: 100%;
-            background: #FFFFFF;
-         }
-
-         #footer-nav-itens {
-             align-self: center;
-             justify-content: center;
-             flex-direction: column; 
-             background: #FFFFFF;
-         }
-
-         #footer-nav {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 2rem;
-            margin-bottom:2rem;
-            margin-left: 0;
-            justify-content: center;
-         }
-
-         #hapu-logo-gray {
-             margin-left: -2.5rem;
-         }
-
-         #footer-nav li {
-            font-size: 11.5px;
-            height: 24px;
-            margin: 0 35px 0 0;
-            line-height: 2;
-         }
-
-         #create-your-nanny {
-             display: none;
-         }
-
-         #create-your-nanny-mobile {
-            display: inline-block;
-            width: 101px;
-            height: 24px;
-            margin: 0 35px 0 0;
-            font-family: Inter;
-            font-size: 11px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
-            letter-spacing: normal;
-            text-align: center;
-        }
-
-        #browse-nanny {
-            display: none;
-        }
-        
-        #browse-nanny-mobile {
-            display: inline-block;
-            width: 83px;
-            height: 24px;
-            margin: 0 0 0 35px;
-            font-family: Inter;
-            font-size: 11px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
-            letter-spacing: normal;
-            text-align: center;
-        }
-        
-        #become-nanny {
-            width: 157px;
-            height: 24px;
-            margin: 0 35px 0 0;
-            font-family: Inter;
-            font-size: 11px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
-            letter-spacing: normal;
-            text-align: center;
-        }
-        
-        #terms {
-            width: 88px;
-            height: 24px;
-            margin: 0 0 0 35px;
-            font-family: Inter;
-            font-size: 11px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
-            letter-spacing: normal;
-            text-align: center;
-            color: #4a4a4a;
-            display: flex;
-        }
-
-        #social-media {
-            margin-bottom: 2.5rem;
-        }
-
-        #space {
-            display: flex;
-            justify-content: center;
-        }
-
-        #space-bar {
-            width: 320px;
-            height: 1px;
-            margin: 19px 0 20px;
-            background-color: #f2f2f2;
-        }
-
-        #footer-copyright {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding-left: 0;
-            margin: 0 0 0 0;
-            margin-right: 0px;
-        }
-
-        #footer-copyright p {
-            width: 280px;
-            height: 28.7px;
-            opacity: 0.6;
-            font-family: Inter;
-            font-size: 12px;
-            font-weight: normal;
-            font-stretch: normal; 
-            font-style: normal;
-            line-height: normal;
-            letter-spacing: normal;
-            text-align: center;
-            color: #4a4a4a
-        }
-
-        
-} 
